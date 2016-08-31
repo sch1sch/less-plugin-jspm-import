@@ -20,7 +20,7 @@
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lixiaoyan/less-plugin-jspm-import"
+    "url": "https://github.com/sch1sch/less-plugin-jspm-import"
   },
   "scripts": {
     "build": "babel --optional runtime src -d lib",
