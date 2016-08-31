@@ -24,7 +24,8 @@
   },
   "scripts": {
     "build": "babel --optional runtime src -d lib",
-    "prepublish": "npm run-script build"
+    "prepublish": "npm run-script build",
+    "preinstall": "npm run-script build"
   },
   "dependencies": {
     "babel-runtime": "^5.8.29"
